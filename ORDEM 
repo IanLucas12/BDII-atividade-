@@ -1,0 +1,15 @@
+✅ 📜 Ordem Correta dos Scripts SQL (Execução Recomendada)
+Ordem	Script	O que faz
+1️⃣	01_create_tabelas_views.sql	Cria todas as tabelas do banco com chaves primárias e estrangeiras
+2️⃣	02_alteracoes.sql	Aplica alterações estruturais adicionais nas tabelas
+3️⃣	04_inserts.sql	Insere dados fictícios nas tabelas (mínimo 10 por tabela)
+4️⃣	05_update_delete.sql	Realiza updates e deletes nos dados para testar integridade
+5️⃣	06_selects.sql	Executa consultas (SELECTs) com JOINs e subqueries
+6️⃣	07_views.sql	Cria as views de relatórios com base nas consultas anteriores
+7️⃣	08_procedures.sql	Cria as procedures do sistema (ações automatizadas)
+8️⃣	08_procedures_testes.sql	Executa os testes das procedures com dados inseridos
+9️⃣	09_functions.sql	Cria as functions personalizadas para cálculos e lógicas
+🔟	09_functions_testes.sql	Executa os testes das functions criadas
+1️⃣1️⃣	10_triggers.sql	Cria triggers (gatilhos automáticos ao inserir/atualizar dados)
+1️⃣2️⃣	10_triggers_testes.sql	Executa testes das triggers com inserções e alterações
+⚠️	03_destruir.sql	Somente ao final (opcional): Remove TUDO (tabelas, views, etc.)
