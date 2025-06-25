@@ -2,8 +2,4 @@
 
 Alunos :
 
-Ian Silva
-
-Gustavo Henrique
-
-Roberto Pinto
+Ian Silva, Gustavo Henrique, Roberto Pinto
